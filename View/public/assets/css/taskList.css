@@ -1,18 +1,59 @@
+/* taskList.css */
+
+.container-fluid {
+    margin-top: 30px;
+}
+
 .task-list-header {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icon {
+    float: right;
+}
+
+.border {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.alert3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    border-radius: 5px;
+}
+
+.table {
     width: 100%;
-    margin-top: 20px;
-    border-radius: 10px;
 }
-.alert2{
-    width: 260%;
+
+.table td {
+    padding: 10px;
 }
-.alert3{
-    width: 100%;
+
+.btn-danger {
+    padding: 5px 10px;
+    border-radius: 5px;
 }
-.alert .icon{
-    margin-left: 300px;
+
+.btn-danger i {
+    margin-right: 5px;
 }
-.border{
-    border: solid 5px black;
-    border-radius: 10px;
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    .container-fluid {
+        width: 100%;
+    }
 }
