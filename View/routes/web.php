@@ -34,3 +34,7 @@ Route::get('/component', function () {
 Route::get('/ke-thua', function () {
     return view('child');
 })->name('child');
+
+Route::get('/ecommerce', function () {
+    return view('ecommerces.header');
+})->name('header');
