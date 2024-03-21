@@ -1,0 +1,48 @@
+.body {
+    font-family: "Inter", sans-serif;
+    margin-top: -32px;
+    background-color: #EEF3F7;
+}
+.between {
+    padding-bottom: 10%;
+    background: #B6DDDC;
+}
+.title {
+    margin: 50px;
+}
+.title h1 {
+    font-weight: 700;
+    color: #060606;
+    margin-top: 30px;
+}
+.right {
+    width: 260%;
+}
+.right img {
+    background: #ffffff;
+    width: 100%;
+    height: 33%;
+}
+.image {
+    background: #ffffff;
+    height: 100%;
+}
+.images {
+    background: #ffffff;
+    height: 100%;
+}
+.images img {
+    padding-top: 30px;
+}
+.image1 {
+    height: 95%;
+    background: #ECD8D9;
+}
+.image2 {
+    height: 95%;
+    background: #E2E2E2;
+}
+.image3 {
+    height: 95%;
+    background: #DDE9D1;
+}
